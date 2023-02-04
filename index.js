@@ -17,5 +17,6 @@ window.onload = function(){
 
 	function HexToWei(hexBalance){
 		return parseInt(hexBalance, 16);
-	}
+	},
+	document.getElementById("valentinBtn").onclick = {}
 };
