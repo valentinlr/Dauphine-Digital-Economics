@@ -18,5 +18,10 @@ window.onload = function(){
 	function HexToWei(hexBalance){
 		return parseInt(hexBalance, 16);
 	},
-	document.getElementById("valentinBtn").onclick = {}
+
+	function NewTab() {
+            window.open("https://www.linkedin.com/in/valentinloiret/");
+        }
+	document.getElementById("valentinBtn").onclick = NewTab();
+	
 };
